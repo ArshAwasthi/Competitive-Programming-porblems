@@ -1,0 +1,196 @@
+
+QUESTION
+
+//
+Predict The Output
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int x = 2;
+    x = x << 1;
+    cout << x;
+}
+
+\\
+
+Answer
+
+//
+4
+\\
+
+______________________________
+
+
+QUESTION
+
+//
+Predict The Output
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int x = -2;
+    x = x >> 1;
+    cout << x;
+}
+\\
+
+Answer
+
+//
+-1
+\\
+
+______________________________
+
+
+QUESTION
+
+//
+Predict The Output
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    if(~0 == 1) {
+        cout << "yes";
+    }
+    else {
+        cout << "no";
+    }
+}
+\\
+
+Options
+
+//
+yes
+no 1
+Compile time error
+Undefined
+\\
+
+______________________________
+
+
+QUESTION
+
+//
+Predict The Output
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int y = 0;
+    if(1 | (y = 1)) {
+        cout << "y is " << y;
+    }
+    else {
+        cout << y;
+    }
+}
+\\
+
+Options
+
+//
+y is 0
+y is 1 (correct)
+1
+0
+\\
+
+______________________________
+
+
+QUESTION
+
+//
+Predict The Output
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    int y = 1;
+    if(y & (y = 2)) {
+        cout << "true";
+    }
+    else {
+        cout << "false";
+    }
+}
+
+\\
+
+Options
+
+//
+true
+\\
+
+______________________________
+
+
+QUESTION
+
+//
+Which bitwise operator is suitable for turning off a particular bit in a number?
+\\
+
+Options
+
+//
+&& operator
+& operator 1
+|| operator
+| operator
+
+\\
+
+______________________________
+
+
+QUESTION
+
+//
+Which bitwise operator is suitable for turning on a particular bit in a number?
+\\
+
+Options
+
+//
+&& operator
+& operator
+|| operator
+| operator 1
+\\
+
+______________________________
+
+
+QUESTION
+
+//
+Which bitwise operator is suitable for checking whether a particular bit is on or off?
+\\
+
+Options
+
+//
+&& operator
+& operator 1
+|| operator
+| operator 1
+! operator
+^ operator 1
+\\
+
+______________________________
+
